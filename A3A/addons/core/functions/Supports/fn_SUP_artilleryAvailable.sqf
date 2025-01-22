@@ -18,5 +18,5 @@ params ["_target", "_side", "_maxSpend", "_availTypes"];
 if (_target isKindOf "Air") exitWith { 0 };     // can't hit air
 
 // Weighted against mortars
-if(tierWar < 5) exitWith { 0 };
-(tierWar - 4) / 12;          // ~8.3% at tier 5, 50% at tier 10 
+if(tierWar < 2) exitWith { 0 };
+(tierWar - 4) / 5;          // ~8.3% at tier 5, 50% at tier 10 
