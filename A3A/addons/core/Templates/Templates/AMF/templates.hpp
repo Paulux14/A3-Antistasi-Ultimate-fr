@@ -19,3 +19,23 @@
         file = "AMF_AI_Army_Tan";
         climate[] = {"arid"};
     };
+
+    class AMF_Occ : AMF_Base
+    {
+        side = "Occ";
+        flagTexture = "\A3\Data_F\Flags\Flag_NATO_CO.paa";
+        basepath = QPATHTOFOLDER(Templates\Templates\AMF);
+        name = "AMF Francais";
+        file = "AMF_Royalistes";
+        description = $STR_A3AP_setupFactionsTab_AMF_Royalistes;
+    };
+
+    class AMF_Reb : AMF_Base
+    {
+        side = "Reb";
+        flagTexture = QPATHTOFOLDER(Templates\Templates\AMF\images\flag_france_co.paa);
+        basepath = QPATHTOFOLDER(Templates\Templates\AMF);
+        name = "AMF Résistants";
+        file = "AMF_Republicains";
+        description = $STR_A3AP_setupFactionsTab_AMF_Republicains;
+    };
