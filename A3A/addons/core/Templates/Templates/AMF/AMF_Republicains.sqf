@@ -4,7 +4,7 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 //   Rebel Information   //
 ///////////////////////////
 
-["name", "Armée_Française"] call _fnc_saveToTemplate;
+["name", "Armée Française"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_NATO_F"] call _fnc_saveToTemplate; 						
 ["flagTexture", QPATHTOFOLDER(Templates\Templates\AMF\images\flag_france_co.paa)] call _fnc_saveToTemplate;			
@@ -147,8 +147,26 @@ private _initialRebelEquipment = [
     "30Rnd_9x21_Mag", "30Rnd_9x21_Red_Mag","UK3CB_FAMAS_25rnd_556x45_RT","AMF_RFG_APAV40","AMF_RFG_AC58",
     "6Rnd_45ACP_Cylinder","MiniGrenade","SmokeShell",
     ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
-    "B_FieldPack_oli","B_FieldPack_blk","B_FieldPack_khk","AMF_rush24_01_MTP","AMF_rush24_01", "AMF_rush24_01_TAN","UK3CB_B_B_Backpack_Radio_Chem_OLI","UK3CB_B_B_Backpack_Radio_Chem"
-    "amf_S3_01_DA","amf_S3_01_CE","UK3CB_V_MBAV_RIFLEMAN_MULTI","UK3CB_V_MBAV_LIGHT_MULTI","UK3CB_V_MBAV_MG_MULTI","UK3CB_V_MBAV_MEDIC_MULTI","UK3CB_V_MBAV_LIGHT_OLI","UK3CB_V_MBAV_MG_OLI","UK3CB_V_MBAV_RIFLEMAN_OLI","UK3CB_V_MBAV_MEDIC_OLI","UK3CB_MDF_B_V_CREW_Vest_TAN","V_Rangemaster_belt",
+    "B_FieldPack_oli",
+    "B_FieldPack_blk",
+    "B_FieldPack_khk",
+    "AMF_rush24_01_MTP",
+    "AMF_rush24_01", 
+    "AMF_rush24_01_TAN",
+    "UK3CB_B_B_Backpack_Radio_Chem_OLI",
+    "UK3CB_B_B_Backpack_Radio_Chem",
+    "amf_S3_01_DA",
+    "amf_S3_01_CE",
+    "UK3CB_V_MBAV_RIFLEMAN_MULTI",
+    "UK3CB_V_MBAV_LIGHT_MULTI",
+    "UK3CB_V_MBAV_MG_MULTI",
+    "UK3CB_V_MBAV_MEDIC_MULTI",
+    "UK3CB_V_MBAV_LIGHT_OLI",
+    "UK3CB_V_MBAV_MG_OLI",
+    "UK3CB_V_MBAV_RIFLEMAN_OLI",
+    "UK3CB_V_MBAV_MEDIC_OLI",
+    "UK3CB_MDF_B_V_CREW_Vest_TAN",
+    "V_Rangemaster_belt",
     "Binocular",
     "acc_flashlight","acc_flashlight_smg_01","acc_flashlight_pistol",
     "rhs_1PN138",
