@@ -32,8 +32,8 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 
 ["staticMGs", ["I_G_HMG_02_high_F"]] call _fnc_saveToTemplate;
 ["staticAT", ["AMF_WiredGuided_mmp_F"]] call _fnc_saveToTemplate;
-["staticAA", ["UK3CB_MDF_I_RBS70"]] call _fnc_saveToTemplate;
-["staticMortar", ["R3F_MO81_LLR"]] call _fnc_saveToTemplate;
+["staticAA", ["RHS_Stinger_AA_pod_D"]] call _fnc_saveToTemplate;
+["staticMortar", ["B_Mortar_01_F"]] call _fnc_saveToTemplate;
 ["staticMortarMagHE", "8Rnd_82mm_Mo_shells"] call _fnc_saveToTemplate;
 ["staticMortarMagSmoke", "8Rnd_82mm_Mo_Smoke_white"] call _fnc_saveToTemplate;
 
