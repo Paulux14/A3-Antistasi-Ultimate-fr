@@ -11,9 +11,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["name", "Armée_Française"] call _fnc_saveToTemplate;
 
-["flag", "Flag_NAP"] call _fnc_saveToTemplate; 						
-["flagTexture", "\UK3CB_Factions\addons\UK3CB_Factions_NAP\Flag\nap_flag_co.paa"] call _fnc_saveToTemplate; 				
-["flagMarkerType", "UK3CB_Marker_NAP"] call _fnc_saveToTemplate; 
+["flag", "Flag_EAF_F"] call _fnc_saveToTemplate;
+["flagTexture", "\a3\Data_F_Enoch\Flags\flag_EAF_CO.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "flag_EAF"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["I_C_Offroad_02_LMG_F", "C_Van_01_transport_F", "AMF_VB2L_CE_762_01_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["AMF_VB2L_CE_762_01_F"]] call _fnc_saveToTemplate;
@@ -153,7 +153,7 @@ private _rebUniforms = [
 ];         
 private _headgear = [];
 
-["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
+["uniforms", _rebUniforms ] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 
 ["headgear", [
  "AMF_TCNVG_DA",
