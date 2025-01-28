@@ -94,7 +94,7 @@ private _initialRebelEquipment = [
     "rhs_weap_fnmag","rhsusf_100Rnd_762x51_m61_ap",
     "UK3CB_FAMAS_F1","UK3CB_FAMAS_25rnd_556x45",
     "optic_Hamr",
-    "arifle_SPAR_01_GL_blk_F","1Rnd_HE_Grenade_shell","30Rnd_556x45_Stanag_red"
+    "arifle_SPAR_01_GL_blk_F","1Rnd_HE_Grenade_shell","30Rnd_556x45_Stanag_red",
     "AMF_Pamas","15Rnd_9x21_Mag",
     "AMF_Glock_17_TAN","16Rnd_9x21_Mag",
     "AMF_RFF2_01_F",
