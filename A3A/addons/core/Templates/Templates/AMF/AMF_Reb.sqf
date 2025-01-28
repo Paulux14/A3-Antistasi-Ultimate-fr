@@ -91,14 +91,16 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 private _initialRebelEquipment = [
     "AMF_Samas_F1_01_F",
     "AMF_Samas_VALO_01_F",
-    "rhs_weap_fnmag","hsusf_100Rnd_762x51",
+    "rhs_weap_fnmag","rhsusf_100Rnd_762x51_m61_ap",
     "UK3CB_FAMAS_F1","UK3CB_FAMAS_25rnd_556x45",
     "optic_Hamr",
+    "arifle_SPAR_01_GL_blk_F","1Rnd_HE_Grenade_shell","30Rnd_556x45_Stanag_red"
     "AMF_Pamas","15Rnd_9x21_Mag",
     "AMF_Glock_17_TAN","16Rnd_9x21_Mag",
     "AMF_RFF2_01_F",
+    "AMF_Eotech_552",
+    "optic_ACO_grn",
     "optic_AMS",
-    "hgun_PDW2000_F",
     "AMF_AT4CS_F",["AMF_84mm_AT4CS",1],
     "75Rnd_mag58_mag","75Rnd_mag58_mag_Tracer_green","75Rnd_mag58_mag_Tracer_red",
     "10Rnd_762x51_Mag","25Rnd_samas_f1_mag", "25Rnd_samas_f1_mag_Tracer_green", "25Rnd_samas_f1_mag_Tracer_red", "25Rnd_samas_f1_mag_Tracer_yellow","15Rnd_9x21_Mag",
