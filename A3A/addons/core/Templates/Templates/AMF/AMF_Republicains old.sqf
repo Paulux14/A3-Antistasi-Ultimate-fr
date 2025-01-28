@@ -4,7 +4,7 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 //   Rebel Information   //
 ///////////////////////////
 
-["name", "Armée Française"] call _fnc_saveToTemplate;
+["name", "Armée_Française"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_NATO_F"] call _fnc_saveToTemplate; 						
 ["flagTexture", QPATHTOFOLDER(Templates\Templates\AMF\images\flag_france_co.paa)] call _fnc_saveToTemplate;			
@@ -84,6 +84,7 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ]] call _fnc_saveToTemplate;
 
 ["breachingExplosivesAPC", [["rhs_ec75_mag", 2], ["rhs_ec75_sand_mag", 2], ["rhs_ec200_mag", 1], ["rhs_ec200_sand_mag", 1], ["rhsusf_m112_mag", 1], ["DemoCharge_Remote_Mag", 1]]] call _fnc_saveToTemplate;
+
 ["breachingExplosivesTank", [["rhs_ec75_mag", 4], ["rhs_ec75_sand_mag", 4], ["rhs_ec200_mag", 2], ["rhs_ec200_sand_mag", 2], ["rhs_ec400_mag", 1], ["rhs_ec400_sand_mag", 1],["DemoCharge_Remote_Mag", 2], ["rhsusf_m112_mag", 2], ["rhsusf_m112x4_mag", 1], ["rhs_charge_M2tet_x2_mag", 1], ["SatchelCharge_Remote_Mag", 1]]] call _fnc_saveToTemplate;
 
 //////////////////////////////////////
@@ -136,10 +137,12 @@ private _initialRebelEquipment = [
     "AMF_Samas_F1_01_F",
     "AMF_Samas_VALO_01_F",
     "AMF_mag58_01_F",
-    "UK3CB_FAMAS_F1","optic_Hamr",
+    "UK3CB_FAMAS_F1",
+    "optic_Hamr",
     "AMF_Pamas","15Rnd_9x21_Mag",
     "AMF_Glock_17_TAN","16Rnd_9x21_Mag",
-    "AMF_RFF2_01_F","optic_AMS",
+    "AMF_RFF2_01_F",
+    "optic_AMS",
     "hgun_PDW2000_F",
     "AMF_AT4CS_F",["AMF_84mm_AT4CS",1],
     "75Rnd_mag58_mag","75Rnd_mag58_mag_Tracer_green","75Rnd_mag58_mag_Tracer_red",
@@ -169,8 +172,7 @@ private _initialRebelEquipment = [
     "V_Rangemaster_belt",
     "Binocular",
     "acc_flashlight","acc_flashlight_smg_01","acc_flashlight_pistol",
-    "rhs_1PN138",
-    "ACE_M26_Clacker"
+    "rhs_1PN138"
 ];
 
 private _civilianBackpacks =  ["backpack_1", "backpack_2"];
