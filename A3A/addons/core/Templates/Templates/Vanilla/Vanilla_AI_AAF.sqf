@@ -140,9 +140,6 @@ if (_hasCSLA) then {
     #include "..\DLC_content\vehicles\CSLA\Vanilla_AAF.sqf"
 };
 
-if (_hasSOG) then {
-    #include "..\DLC_content\vehicles\SOG\Vanilla_AAF.sqf"
-};
 
 if (_hasSPE) then {
     #include "..\DLC_content\vehicles\SPE\Vanilla_AAF.sqf"
@@ -694,10 +691,6 @@ if (_hasGM) then {
     #include "..\DLC_content\weapons\GM\Vanilla_AAF.sqf"
 };
 
-if (_hasSOG) then {
-    #include "..\DLC_content\gear\SOG\Vanilla_AAF.sqf"
-    #include "..\DLC_content\weapons\SOG\Vanilla_AAF.sqf"
-};
 
 if (_hasSPE) then {
     #include "..\DLC_content\gear\SPE\Vanilla_AAF.sqf"

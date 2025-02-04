@@ -811,10 +811,7 @@ if (_hasGM) then {
     #include "..\DLC_content\weapons\GM\Vanilla_NATO.sqf"
 };
 
-if (_hasSOG) then {
-    #include "..\DLC_content\gear\SOG\Vanilla_NATO.sqf"
-    #include "..\DLC_content\weapons\SOG\Vanilla_NATO.sqf"
-};
+
 
 if (_hasEF) then {
     #include "..\DLC_content\gear\EF\Vanilla_NATO_Temparate.sqf"

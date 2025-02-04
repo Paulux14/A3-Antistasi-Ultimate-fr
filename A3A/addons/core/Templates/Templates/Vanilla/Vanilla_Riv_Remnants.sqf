@@ -92,9 +92,6 @@ if (_hasRF) then {
 	#include "..\DLC_content\vehicles\RF\Vanilla_Riv_Remnants.sqf" 
 };
 
-if (_hasSOG) then {
-	#include "..\DLC_content\vehicles\SOG\Vanilla_Rivals.sqf" 
-};
 
 if (_hasSPE) then {
 	#include "..\DLC_content\vehicles\SPE\Vanilla_Rivals.sqf" 
@@ -223,9 +220,7 @@ if (_hasCSLA) then {
     #include "..\DLC_content\weapons\CSLA\Vanilla_Riv_Remnants.sqf" 
 };
 
-if (_hasSOG) then {
-    #include "..\DLC_content\weapons\SOG\Vanilla_Riv_Remnants.sqf" 
-};
+
 
 if (_hasSPE) then {
     #include "..\DLC_content\weapons\SPE\Vanilla_Riv_Remnants.sqf" 
@@ -353,9 +348,6 @@ if (_hasCSLA) then {
 	#include "..\DLC_content\gear\CSLA\Vanilla_Riv_Remnants.sqf" 
 };
 
-if (_hasSOG) then {
-	#include "..\DLC_content\gear\SOG\Vanilla_Riv_Remnants.sqf" 
-};
 
 if (_hasJets) then {
 	#include "..\DLC_content\gear\Jets\Vanilla_Riv_Remnants.sqf" 
