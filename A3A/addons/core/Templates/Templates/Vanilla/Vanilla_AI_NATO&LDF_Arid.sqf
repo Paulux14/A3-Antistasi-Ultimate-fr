@@ -156,9 +156,7 @@ if (_hasCSLA) then {
     #include "..\DLC_content\vehicles\CSLA\Vanilla_NATO&LDF.sqf"
 };
 
-if (_hasSOG) then {
-    #include "..\DLC_content\vehicles\SOG\Vanilla_LDF.sqf"
-};
+
 
 if (_hasEF) then {
     #include "..\DLC_content\vehicles\EF\Vanilla_NATO_Arid.sqf"
@@ -218,7 +216,6 @@ if (_hasSPE) then {
     #include "..\vehicleAnimations\vehicleAnimations_RF.sqf",
     #include "..\vehicleAnimations\vehicleAnimations_GM.sqf",
     #include "..\vehicleAnimations\vehicleAnimations_CSLA.sqf",
-	#include "..\vehicleAnimations\vehicleAnimations_SOG.sqf",
     #include "..\vehicleAnimations\vehicleAnimations_SPE.sqf",
     #include "..\vehicleAnimations\vehicleAnimations_EF.sqf"
 ]] call _fnc_saveToTemplate;
@@ -1065,10 +1062,7 @@ if (_hasGM) then {
     #include "..\DLC_content\weapons\GM\Vanilla_NATO&LDF.sqf"
 };
 
-if (_hasSOG) then {
-    #include "..\DLC_content\gear\SOG\Vanilla_NATO&LDF.sqf"
-    #include "..\DLC_content\weapons\SOG\Vanilla_NATO&LDF.sqf"
-};
+
 
 if (_hasSPE) then {
     #include "..\DLC_content\gear\SPE\Vanilla_LDF.sqf"
