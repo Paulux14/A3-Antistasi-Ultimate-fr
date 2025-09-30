@@ -6,7 +6,7 @@
 ["spawnMarkerName", format [localize "STR_supportcorridor", "MACV"]] call _fnc_saveToTemplate;
 
 ["flag", "vn_flag_usa"] call _fnc_saveToTemplate;
-["flagTexture", "vn\objects_f_vietnam\flags\data\vn_flag_01_usa_co.paa"] call _fnc_saveToTemplate;
+["flagTexture", "\vn\objects_f_vietnam\flags\vn_flag_01_usa_co.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "vn_flag_usa"] call _fnc_saveToTemplate;
 
 //////////////////////////
@@ -124,6 +124,7 @@ if (isClass (configFile >> "cfgVehicles" >> "vnx_b_air_ac119_02_01")) then {
 "vn_b_GreekHead_A3_11_11", "vn_b_GreekHead_A3_12_11", "vn_b_LivonianHead_10_09", "vn_b_LivonianHead_2_04",
 "vn_b_TanoanHead_A3_06_11", "vn_b_TanoanHead_A3_07_10", "vn_b_WhiteHead_19_08", "vn_b_WhiteHead_26_02",
 "vn_b_WhiteHead_27_01", "WhiteHead_08", "WhiteHead_10", "WhiteHead_11", "WhiteHead_12"]] call _fnc_saveToTemplate;
+"NATOMen" call _fnc_saveNames;
 
 //////////////////////////
 //       Loadouts       //
@@ -513,7 +514,10 @@ _policeLoadoutData set ["helmets", ["vn_b_helmet_m1_01_02","vn_b_boonie_02_01"]]
 
 _policeLoadoutData set ["rifles", [
 ["vn_m1a1_tommy", "", "", "", ["vn_m1a1_20_mag", "vn_m1a1_20_mag", "vn_m1a1_20_t_mag"], [], ""],
-["vn_m1carbine", "", "", "", ["vn_carbine_15_mag", "vn_carbine_15_mag", "vn_carbine_15_t_mag"], [], ""],
+["vn_m1carbine", "", "", "", ["vn_carbine_15_mag", "vn_carbine_15_mag", "vn_carbine_15_t_mag"], [], ""]
+]];
+
+_policeLoadoutData set ["shotguns", [
 ["vn_m1897", "", "", "", ["vn_m1897_buck_mag", "vn_m1897_fl_mag"], [], ""]
 ]];
 
@@ -963,7 +967,7 @@ private _policeTemplate = {
 	["vests"] call _fnc_setVest;
 	["uniforms"] call _fnc_setUniform;
 
-	[selectRandom ["rifles", "shotGuns"]] call _fnc_setPrimary;
+	[selectRandom ["rifles", "shotguns"]] call _fnc_setPrimary;
 	["primary", 3] call _fnc_addMagazines;
 
 	["sidearms"] call _fnc_setHandgun;

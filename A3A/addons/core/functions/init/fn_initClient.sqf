@@ -116,6 +116,12 @@ if (enableSpectrumDevice) then {
 	[] execVM QPATHTOFOLDER(Scripts\SpectumDevice\sa_ewar.sqf);
 };
 
+if (RRTurretMagazines) then {
+    [] execVM QPATHTOFOLDER(Scripts\RRTurretMagazines\scripts\fn_monitorMagazines.sqf);
+    addUserActionEventHandler ["ReloadMagazine", "Activate", A3A_fnc_reloadTurret];
+    [] execVM QPATHTOFOLDER(Scripts\RRTurretMagazines\scripts\fn_reloadTurret.sqf);
+};
+
 // Placeholders, should get replaced globally by the server
 player setVariable ["score",0];
 player setVariable ["moneyX",0];
@@ -460,8 +466,7 @@ cutText ["","BLACK IN", 3];
 
 [] remoteExecCall ["A3A_fnc_assignBossIfNone", 2];
 
-
-if (isServer || player isEqualTo theBoss || (call BIS_fnc_admin) > 0) then {  // Local Host || Commander || Dedicated Admin
+if (isServer || (!isNil "theBoss" && {player isEqualTo theBoss}) || (call BIS_fnc_admin) > 0) then {  // Local Host || Commander || Dedicated Admin
     private _modsAndLoadText = [
         [A3A_hasTFAR || A3A_hasTFARBeta,"TFAR",localize "STR_A3A_initClient_mods_TFAR"],
         [A3A_hasACRE,"ACRE",localize "STR_A3A_initClient_mods_ACRE"],
